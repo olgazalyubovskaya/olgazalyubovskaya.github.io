@@ -1,0 +1,410 @@
+@media screen and (max-width: 1300px) {
+	.slider__slide_vk {
+		margin-right: 40px;
+	}
+
+	.slider__slide_personal-info h3 {
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 1209px) {
+	.slider__slide_vk {
+		margin-right: 36px;
+	}
+
+	.slider__slide_personal-info h3 {
+		margin-right: 45px;
+	}
+
+	.slider__slide_vk:after {
+		bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 1007px) {
+	.slider__slide_vk {
+		margin-right: 0px;
+	}
+
+	.slider__slide_personal-info h3 {
+		margin-right: 62px;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.main-title__item_big {
+		font-size: 64px;
+	}
+
+	.main-title__item_small {
+		font-size: 44px;
+	}
+
+	.merit-smart {
+		margin-top: 30px;
+	}
+
+/*    Moving Page    */
+	.moving-page-offer span {
+		display: block;
+	}
+
+	/*    Contacts Page    */	
+
+	.contacts-page-consultation {
+	  	padding: 40px 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/*     main-page     */
+	.main-title__item_big {
+		font-size: 47px;
+	}
+
+	.main-title__item_small {
+		font-size: 33px;
+	}
+
+	.credits {
+		font-size: 10px;
+	}
+
+	.slider__slide_personal-info h3 {
+		margin-right: 14px;
+	}
+
+	.ls-100 {
+		letter-spacing: 0.02em;
+	}
+
+	h2 {
+		font-size: 34px;
+	}
+
+	h3 {
+		font-size: 14px;
+	}
+
+	.answer__hdr {
+		font-size: 32px;
+	}
+
+	.how__item {
+		font-size: 14px;
+	}
+
+	.how__item_question {
+		font-size: 16px;
+	}
+
+/*internal-page*/
+	.internal-page .container-up {
+    	padding-top: 0px;
+	}
+
+	/*     About-page     */
+
+	/*.about-company-page-safety .container {
+	    padding-bottom: 50px;
+	}*/
+
+	.container-up {
+    	margin-top: -44px;
+	}
+
+	.internal-page {
+    	background: #fff;
+	}
+
+	.internal-page-arrow {
+	    bottom: 56%;
+	}
+
+	.about-company-page-descr {
+		font-size: 15px;
+	}
+
+	.about-company-page-stimulus__hdr_blue {
+    	font-size: 33px;
+	}
+
+	.about-company-page-stimulus__hdr_black {
+	    font-size: 13px;
+	}
+
+	.about-company-page-stimulus__txt_central-item {
+	    letter-spacing: 0.2em;
+	    font-size: 14px;
+	    margin: 18px 0 16px;
+	}
+
+	.about-company-page-stimulus__hdr_last-item {
+	    font-size: 27px;
+	}
+
+	.about-company-page-managers .container {
+	    padding-bottom: 0px;
+	}	
+
+	.about-company-page-are-you-ready.internal-page {
+    	background: #23aae2;
+	}
+
+	.bsh {
+    	box-shadow: 0px 0px 0px 0px;
+	}
+
+	.about-company-page-cards-left p, .about-company-page-cards-right p {
+  		font-size: 14px;
+  		padding: 0 33px;
+	}
+
+	.about-company-page-cards-left {
+    	margin-left: 0px;
+	}
+
+	.about-company-page-cards-right {
+    	margin-right: 0px;
+	}
+
+	/*    moving Page    */
+
+	.moving-page-services__descr {
+	    font-size: 14px;
+	}
+
+	.moving-page-services__descr_package, .moving-page-services__img_package {
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	}
+
+	/*    Contacts Page    */
+
+	.contacts-page-icon p {
+	    font-size: 14px;
+	}
+	
+
+	.consultation-hdr__title_big {
+	  	font-size: 21px;
+	}
+
+	.consultation-hdr__title_small {
+		font-size: 15px;
+	}
+
+	.contacts-page-consultation {
+    margin-bottom: 0px; 
+}
+
+	.contacts-page-consultation__subtitle {
+		font-size: 14px;
+	}
+
+	.contacts-page-form button {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.credits {
+		font-size: 14px;
+	}
+
+	.main-title__item_big {
+		font-size: 32px;
+	}
+
+	.main-title__item_small {
+		font-size: 22px;
+	}
+
+	.slider__slide, .slick-slide {
+	    margin-top: 118px;
+	}
+
+	.slider__slide_photo {
+	    left: 50%;
+	    margin-left: -74px;
+    	top: -18%;
+	}
+
+	.slider__slide_content {
+    	margin-top: 90px;
+	}
+
+	.ls-100 {
+		letter-spacing: 0.1em;
+	}
+
+	.slider__slide {
+	     padding: 0 10px; 
+    	text-align: center;
+	}
+
+	.slider__slide_personal-info {
+		display: block!important;
+	}
+
+	.slider__slide_personal-info h3 {
+		margin-right: 0;
+	}
+
+	.slider__slide_vk:after {
+	    bottom: -2px;
+	}
+
+	.slider__slide_route {
+	    margin-top: 6px;
+	}
+
+		/*     About-page     */
+
+	.internal-page-offer .main-title {
+		line-height: 50px;
+		font-size: 38px;
+    	letter-spacing: 0.1em;
+	}
+
+	.internal-page-offer span {
+		display: block;
+	}
+
+	.about-company-page-stimulus__hdr_blue {
+    	font-size: 35px;
+    	letter-spacing: 0.2em;
+	}
+
+	.about-company-page-stimulus__hdr_black {
+	    font-size: 15px;
+	    letter-spacing: 0.1em;
+	}
+
+	.about-company-page-stimulus__txt_central-item {
+	    letter-spacing: 0.4em;
+	    font-size: 18px;
+	    margin: 18px 0 27px;
+	}
+
+	.about-company-page-stimulus__hdr_last-item {
+	    font-size: 27px;
+	    letter-spacing: 0.15em;
+	}
+
+	.about-company-page-cards-left, .about-company-page-cards-right {
+	    margin-right: 15px;
+	    margin-left: 15px;
+	}
+
+	.about-company-page-cards-right {
+	    margin-top: 30px;
+	}
+
+	.about-company-page-cards-left p, .about-company-page-cards-right p {
+  		font-size: 16px;
+  		padding: 0 44px;
+	}
+
+/*moving-page*/
+	.moving-page-services {
+		text-align: center;
+	}
+
+	.moving-page-services__img_cottage {
+		margin-bottom: 24px;
+	}
+
+	.moving-page-services__img_package {
+		margin: 24px 0;
+	}
+
+	/*    Contacts Page    */	
+
+	.contacts-page-phone {
+	    margin-top: 16px;
+	    
+	}
+
+	.contacts-page-phone__txt {
+		text-align: left;
+		justify-content: center;
+	}
+
+	.contacts-page-icon {
+	    position: relative;
+	    padding-left: 0%;
+	    text-align: center;
+	    margin-bottom: 58px;
+	}
+
+	.contacts-page-icon:before {
+		position: inherit;
+		top: -20px;
+	}
+
+	.consultation-hdr__title_big {
+	  	font-size: 24px;
+	}
+
+	.consultation-hdr__title_small {
+		  	font-size: 20px;
+		}
+
+	.contacts-page-consultation__subtitle {
+		  	font-size: 18px;
+		}
+
+	.contacts-page-form button {
+		font-size: 11px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.answer__hdr {
+    	font-size: 24px;
+	}
+
+	.relocation-text__item {
+    	font-size: 16px;
+	}
+
+	.merit {
+	    margin-top: 10px;
+	}
+
+	.consultation-hdr__subtitle {
+    	font-size: 17px;
+	}
+
+	.credits {
+    	font-size: 12px;
+	}
+
+	.reviews-title {
+    	margin-bottom: 42px;
+	}
+
+	/*     About-page     */
+
+	.about-company-page-managers__header {
+		letter-spacing: 0.05em;
+    	font-size: 23px;
+	}
+
+/*    Moving Page    */
+
+	.moving-page-offer .main-title {
+		font-size: 26px;
+	}
+
+
+}

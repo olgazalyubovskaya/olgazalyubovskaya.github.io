@@ -1,0 +1,961 @@
+/*Specification*/
+
+@font-face {
+  font-family: 'MuseoSansCyrl-100';
+  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl-900';
+  src: url('../fonts/MuseoSansCyrl-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'MuseoSansCyrl-100';
+  font-size: 17px;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'MuseoSansCyrl-900';
+  text-transform: uppercase;
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 42px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h5 {
+  /*text-align: center;*/
+  font-size: 18px;
+}
+
+.title {
+  font-family: 'MuseoSansCyrl-900';
+  text-transform: uppercase;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.ls-100 {
+  letter-spacing: 0.1em;
+}
+
+.ls-80 {
+  letter-spacing: 0.02em;
+}
+
+.phones {
+  font-family: 'MuseoSansCyrl-900';
+  font-size: 16px;
+  color: #fff;
+  width: 200px;
+  text-align: right;
+}
+
+.scroll-arrow {
+  background: url('../img/arrow.png');
+  height: 45px;
+  width: 45px;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  margin-left: -22px;
+  bottom: 10%;
+  z-index: 3;
+}
+
+.scrolltotop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: url('../img/arrowUp.png');
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  transition: all .5s;
+  display: none;
+  opacity: .8;
+}
+
+.scrolltotop:hover {
+ opacity: .5;
+ /*box-shadow: 0 0 10px rgba(0,0,0,.4);*/
+}
+
+section {
+  padding: 86px 0;
+}
+
+.button {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  display: block;
+  width: 216px;
+  margin: 0 auto;
+  padding: 23px 0;
+}
+
+.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.offer {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  width: 96%;
+  z-index: 1;
+}
+
+.header {
+  background: url('../img/compass_bolgarya_vng_png.jpg') no-repeat center top / cover;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.container-up {
+  margin-top: -171px;
+}
+
+.bsh {
+  box-shadow: 0px 3px 1px 0px rgba(159, 160, 160, 0.18);
+}
+
+
+
+/*  First screen: header  */
+.main-page-header {
+  height: 100vh;
+}
+
+.main-heading {
+  background: rgba(0,0,0,0.25);
+  position: relative;
+  z-index: 2;
+}
+
+.main-menu {
+
+}
+
+.main-menu__item {
+
+}
+
+.main-menu__item a {
+  color: #fff;
+  font-size: 10px;
+  font-family: 'MuseoSansCyrl-900';
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+.main-menu__item a:hover, .main-menu__item.activ a {
+  background: rgba(255,255,255,0.14);
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-phones {
+  background: url(../img/phone.png) no-repeat 9px center;
+}
+
+.main-page-offer {
+  height: 99%;
+}
+
+.main-page-offer .container {
+  height: 100vh;
+  position: relative;
+}
+
+.main-title {
+  color: #f0f2f3;
+  text-transform: uppercase;
+  font-family: 'MuseoSansCyrl-900';
+  position: absolute;
+  top: 50%;
+  margin-top: -88px;
+  width: 99%;
+  left: 1%;
+}
+
+.main-title__item {
+  display: block;
+}
+
+.main-title__item_big {
+  font-size: 90px;
+  letter-spacing: 0.46em;
+  margin-bottom: 20px;
+}
+
+.main-title__item_small {
+  font-size: 51px;
+  letter-spacing: 0.2em;
+}
+
+.main-arrow {
+
+}
+
+/*  Second screen: advantages  */
+.cards {
+  background: #f4f4f4;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+  padding-top: 43px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.cards__img {
+  background: url('../img/confidence.png') no-repeat center center;
+  height: 107px;
+}
+
+.cards__img_confidence {
+
+}
+
+.cards__img_true {
+  background-image: url('../img/true.png');
+}
+
+.cards__img_smart {
+  background-image: url('../img/smart.png');
+}
+
+.cards__title {
+  margin: 11px 0 18px 0;
+}
+
+.cards__title:after {
+  content:'';
+  width: 37px;
+  height: 1px;
+  background: #cfcfcf;
+  display: block;
+  margin: 13px auto 10px;
+}
+
+.cards__text {
+  padding: 0 44px;
+  font-size: 16px;
+}
+
+.cards__text_true, .cards__text_smart {
+  padding: 0 22px;
+}
+
+/*  Third screen: relocation  */
+.relocation {
+  background: url('../img/moving-to-Bulgaria.jpg');
+  color: #fff;
+}
+
+.relocation-title {
+  color: #fff;
+}
+
+.relocation-text {
+  margin-top: 20px;
+}
+
+.relocation-text__item {
+  display: block;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.relocation-text__item_caption {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  margin-top: 10px;
+}
+
+.how {
+  border: 1px dashed #fff;
+  padding-top: 20px;
+  padding-bottom: -20px;
+  margin: 50px 0;
+}
+
+.how:before, .how:after {
+  content: '\f0d7';
+  font-family: FontAwesome;
+  border-radius: 100%;
+  background: #213646;
+  border: 1px dashed #fff;
+  width: 33px;
+  height: 33px;
+  display: block;
+  padding-top: 4px;
+  margin: 0 auto;
+  margin-top: -37px;
+}
+
+.how:after {
+  margin-top: 55px;
+  margin-bottom: -17px;
+}
+
+.how__text {
+  margin-top: 20px;
+  margin-bottom: -40px;
+  text-transform: uppercase; 
+  font-family: 'MuseoSansCyrl-100';
+}
+
+.how__item {
+  display: block;
+  font-size: 17px;
+}
+
+.how__item_question {
+  font-size: 20px;
+}
+
+.answer {
+
+}
+
+.answer__hdr {
+  font-size: 37px;
+}
+
+.answer__text {
+font-size: 18px;
+}
+
+.answer__button {
+  margin-top: 45px;
+  transition: background-color 0.3s, color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+}
+
+.answer__button:hover {
+  background-color: rgb(255,255,255);
+  transition: background-color 0.3s, opacity 0.3s;
+  -webkit-transition: background-color 0.3s, opacity 0.3s;
+  color: #233d53;
+}
+
+/*  Forth screen: service  */
+.services {
+  background: url('../img/city.jpg') no-repeat center bottom/cover;
+}
+
+.services-title {
+
+}
+
+.imgs {
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -183px;
+  top: 40px;
+}
+
+.img {
+  position: relative;
+}
+
+.imgs__left {
+  width: 135px;
+  height: 135px;
+  z-index: 10;
+  left: 33px;
+  top: 37px;
+}
+
+.imgs__central {
+  width: 144px;
+  height: 143px;
+  border-radius: 50%;
+  box-shadow: 1px -2px 26px rgba(0,0,0,0.22); 
+  z-index: 20;
+}
+
+.imgs__right {
+  width: 119px;
+  height: 120px;
+  z-index: 10;
+  top: 45px;
+  right: 67px;
+}
+
+.dream {
+  margin-top: 145px;
+  position: relative;
+  z-index: 15;
+  line-height: 1.5;
+}
+
+.dream__intro_title {
+  font-size: 20px;
+  margin-bottom: 6px;  
+}
+
+.dream__intro_box {
+  background: #f4f4f4;
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.33); 
+}
+
+.dream__intro_first {
+  padding: 65px 45px 45px;
+}
+
+.dream__intro_second {
+  margin-top: -54px;
+  padding: 45px;
+}
+
+.dream__icon {
+  background: url('../img/circle.png');
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  margin-left: -30px;
+  position: relative;
+  top: -30px;
+  z-index: 2;
+}
+
+.dream__button {
+  margin-top: 56px;
+  border-color: #23aae2;
+  color: #23aae2;
+  transition: background-color 0.3s, color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+}
+
+.dream__button:hover {
+  color: #fff;
+  background-color: rgb(35,170,226);
+  transition: background-color 0.3s, opacity 0.3s;
+  -webkit-transition: background-color 0.3s, opacity 0.3s;
+}
+
+/*  Fifth screen: service  */
+.reviews {
+
+}
+
+.reviews-title {
+
+}
+
+.slider {
+  position: relative;
+  margin-top: 70px;
+}
+
+.slider__slide, .slick-slide {
+  box-shadow: 1px 2px 4px rgba(149,147,147,0.33);
+  position: relative;
+  padding: 40px 26px 29px 125px;
+  /*margin: 0 70px 0 80px;*/
+}
+
+.slider__slide_photo {
+  background: url(../img/photo.png) no-repeat center center;
+  width: 132px;
+  height: 132px;
+  position: absolute;
+  /*left: -10%;*/
+  left: -7%;
+  top: 20%;
+}
+
+.slider__slide_content {
+
+}
+
+.slider__slide_personal-info {
+  line-height: 16px;
+}
+
+.slider__slide_personal-info h3 {
+  margin-right: 40px;
+}
+
+.slider__slide_vk {
+  font-size: 12px;
+  color: #23aae2!important;
+  margin-right: 101px;
+  cursor: pointer;
+  position: relative;
+}
+
+.slider__slide_vk:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: #b5dcf3;
+}
+
+.slider__slide_route {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #23aae2;
+  font-weight: bold;
+}
+
+.slider__slide_text {
+  font-size: 14px;
+  color: #363636;
+  font-style: italic;
+}
+
+.slider__nav {
+  margin-left: 46%;
+  margin-top: 50px;
+}
+
+.slider__arrow {
+  color: #23aae2;
+  font-size: 28px;
+  position: absolute;
+  top: 35%;
+}
+
+.slider__arrow_left {
+  left: -16%;
+}
+
+.slider__arrow_right {
+  right: -16%;
+}
+
+.fa {
+
+}
+
+.fa-chevron-left {
+
+}
+
+.fa-chevron-right {
+  
+}
+
+.slider__dots {
+  left: 50%;
+  position: absolute;
+  margin-left: -38px;
+}
+
+.slider__dot {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px dashed #23aae2;  
+}
+
+.activ-dot {
+  background-color: #23aae2;
+}
+
+.slider__dot_centr {
+  margin: 0 10px;
+}
+
+/*  Sixth screen: consultation  */
+.consultation {
+  background: url(../img/questions-about-bulgaria.jpg);
+}
+
+.consultation-hdr {
+ text-transform: uppercase;
+}
+
+.consultation-hdr__title {
+  color: #fff;
+}
+
+.consultation-hdr__subtitle {
+  font-size: 21px;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.consultation-arrow {
+  background: url(../img/arrow-last.png) no-repeat center center;
+  height: 33px;
+  width: 33px;
+  margin: 24px auto;
+}
+
+.form {
+  
+}
+
+.form__input {
+  background-color: #30c2ff;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 9px;
+  padding-left: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form__input::-webkit-input-placeholder {color:#fff;}
+.form__input::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.form__input:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.form__input:-ms-input-placeholder      {color:#fff;}
+
+input .form__input[placeholder]          {text-overflow:ellipsis;}
+input .form__input::-moz-placeholder     {text-overflow:ellipsis;} 
+input .form__input:-moz-placeholder      {text-overflow:ellipsis;} 
+input .form__input:-ms-input-placeholder {text-overflow:ellipsis;}
+
+.form__input:focus::-webkit-input-placeholder {color: transparent}
+.form__input:focus::-moz-placeholder          {color: transparent}
+.form__input:focus:-moz-placeholder           {color: transparent}
+.form__input:focus:-ms-input-placeholder      {color: transparent}
+
+.form__button {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+.form__button:hover {
+  color: #23aae2;
+  background-color: #fff;
+  transition: background-color 0.3s, opacity 0.3s;
+  -webkit-transition: background-color 0.3s, opacity 0.3s;
+}
+
+/*     footer     */
+.footer {
+  background-color: #23aae2;
+  box-shadow: 3px -13px 131px 0px rgba(0, 0, 0, 0.26);
+  padding: 14px 0 17px;
+}
+
+.credits {
+  font-size: 14px;
+  color: #faf7f7;
+  padding: 0px;
+}
+
+.credits__rights {
+  
+}
+
+.credits__politics {
+  border-bottom: 1px dotted #aadef4;
+  cursor: pointer !important;
+}
+
+.footer-phones {
+  background: url(../img/phone-white.png) no-repeat 9px center;
+}
+
+/*    Internal-Pages     */
+
+.internal-page {
+  background: #f7f7f7;
+}
+
+.internal-page-header {
+  height: 50vh;
+}
+
+.internal-page-offer {
+  font-size: 40px;
+  letter-spacing: 0.3em;
+}
+
+.internal-page-offer .container {
+  height: 50vh;
+  position: relative;
+}
+
+.internal-page-arrow {
+  bottom: 65%;
+}
+
+.internal-page .container-up {
+  padding-top: 40px;
+}
+
+.internal-page-descr {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 60px;
+}
+
+.internal-page-title {
+  font-family: 'MuseoSansCyrl-900';
+  font-size: 18px;
+}
+
+
+
+/*   About Company Page  */
+
+/*   Second Screen   */
+.about-company-page-safety {
+
+}
+
+.about-company-page-safety .container {
+    padding-bottom: 50px;
+}
+
+.about-company-page-descr {
+  margin-bottom: 58px;
+}
+
+.about-company-page-title {
+  font-family: 'MuseoSansCyrl-900';
+}
+
+.about-company-page-stimulus {
+  padding-left: 15px;
+  padding-right: 15px;
+  /*padding-bottom: 60px;*/
+}
+
+.about-company-page-stimulus__hdr {
+  line-height: 34px;
+}
+
+.about-company-page-stimulus__hdr span {
+  display: block;
+}
+
+.about-company-page-stimulus__hdr_blue {
+  color: #23aae2;
+  font-size: 39px;
+}
+
+.about-company-page-stimulus__hdr_black {
+  font-size: 15px;
+}
+
+.about-company-page-stimulus__txt_central-item {
+  font-family: 'MuseoSansCyrl-100';
+  letter-spacing: 0.5em;
+  font-size: 19px;
+  color: #bdbdbd;
+}
+
+.about-company-page-stimulus__hdr_last {
+  margin-top: -9px;
+}
+
+.about-company-page-stimulus__hdr_last-item {
+  font-size: 27px;
+  line-height: 36px;
+}
+
+/* Third screen: Are-you-ready */
+.about-company-page-are-you-ready {
+  padding: 0;
+  margin-top: -86px;
+}
+
+.about-company-page-are-you-ready .container {
+  background: #23aae2;
+}
+
+.about-company-page-are-you-ready__hdr {
+  font-size: 23px;
+  color: #fff;
+  line-height: 76px;
+  margin-bottom: 0px;
+}
+
+/*Fourth screen: Managers */
+.about-company-page-managers {
+
+}
+
+.about-company-page-managers .container {
+  /*margin-top: -30px;*/
+  /*margin-bottom: 20px;*/
+  padding-bottom: 74px;
+}
+
+.about-company-page-managers__header {
+  font-size: 29px;
+}
+
+.about-company-page-cards-left {
+  margin-left: 15px;
+}
+
+.about-company-page-cards-right {
+  margin-right: 15px;
+}
+
+.cards__img_topmanager {
+  background: url('../img/compass_topmanager.png') no-repeat center center;
+  height: 134px;
+  margin-bottom: 28px;
+}
+
+.cards__img_manager {
+  background: url('../img/compass_manager.png') no-repeat center center;
+  height: 134px;
+  margin-bottom: 28px;
+}
+
+/*   Moving Page   */
+.moving-page-services__img {
+  background: url('../img/bolgarya_kotedg.png') no-repeat center center;
+  background-size: contain;
+  height: 156px;
+}
+
+.moving-page-services__descr {
+  font-size: 16px;
+}
+
+.moving-page-services__img_package {
+  background-image: url('../img/bolgarya_package.png');
+  height: 301px;
+}
+
+.moving-page-services__descr_package, .moving-page-services__img_package {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+/*   Contacts Page   */
+
+.contacts-page-icon {
+  position: relative;
+  padding-left: 16%;
+  margin-bottom: 26px;
+}
+
+.contacts-page-icon:before {
+  content: url('../img/bolgariya_phone.png');
+  position: absolute;
+  left: 0%;
+}
+
+.contacts-page-icon p {
+  font-size: 16px;
+}
+
+.contacts-page-phone {
+  margin-top: 80px;
+}
+
+.contacts-page-phone__txt {
+
+}
+
+.contacts-page-phone__nmbr {
+  margin-left: 12px;
+}
+
+.contacts-page-email {
+
+}
+
+.contacts-page-skype {
+  
+}
+
+.contacts-page-email:before {
+  content: url('../img/bolgariya_email.png');
+}
+
+.contacts-page-skype:before {
+   content: url('../img/bolgariya_skype.png');
+}
+
+.contacts-page-consultation {
+  padding: 40px 50px;
+  background-color: #11b2f5;
+  margin-bottom: 64px;
+}
+
+.contacts-page-consultation__descr {
+
+}
+
+.contacts-page-consultation__descr span {
+display: block;
+}
+
+.consultation-hdr__title_big {
+  font-size: 25px;
+}
+
+.consultation-hdr__title_small {
+  font-size: 20px;
+}
+
+.contacts-page-consultation__subtitle {
+  font-size: 18px;
+}
+
+.contacts-page-form input {
+  font-size: 11px;
+}
+
+.contacts-page-form input {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.contacts-page-form button {
+  padding: 15px 0;
+}
