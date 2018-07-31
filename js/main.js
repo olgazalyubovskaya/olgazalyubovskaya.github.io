@@ -51,7 +51,7 @@ $(document).ready(function () {
   		dots: true,
   		// autoplay: false,
   		autoplay: true,
-  		autoplaySpeed: 1000,
+  		autoplaySpeed: 100,
   		prevArrow: '<button type="button" class="slider__arrow slider__arrow_right d-none d-sm-block"><i class="fa fa-chevron-right"></i></button>',
   		nextArrow: '<button type="button" class="slider__arrow slider__arrow_left d-none d-sm-block"><i class="fa fa-chevron-left"></i></button>'
 	});
